@@ -83,7 +83,7 @@ class PauseAtHeight(Script):
                     "description": "What X location does the head move to when pausing.",
                     "unit": "mm",
                     "type": "float",
-                    "default_value": 190,
+                    "default_value": 10,
                     "enabled": "head_park_enabled and pause_method != \\\"griffin\\\""
                 },
                 "head_park_y":
@@ -92,7 +92,7 @@ class PauseAtHeight(Script):
                     "description": "What Y location does the head move to when pausing.",
                     "unit": "mm",
                     "type": "float",
-                    "default_value": 190,
+                    "default_value":220,
                     "enabled": "head_park_enabled and pause_method != \\\"griffin\\\""
                 },
                 "head_move_z":
